@@ -39,7 +39,6 @@ tt,
 var,
 b,
 u,
-i,
 center,
 dl,
 dt,
@@ -149,9 +148,15 @@ img {
 body {
     -webkit-overflow-scrolling: touch;
 }
-
+@font-face {
+    font-family: 'myFont'; 
+    src: url('../font/PingFang Heavy.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 html,
 body {
     width: 100%;
     height: 100%;
+    font-family: myFont, sans-serif;
 }
